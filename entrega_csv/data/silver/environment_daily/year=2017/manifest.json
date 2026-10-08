@@ -1,0 +1,3074 @@
+{
+  "year": 2017,
+  "rows": 235425,
+  "municipalities": 645,
+  "inputs": {
+    "weather": "0f620edffe32a9df55e2c0619f5f9d2fe9965ffe2fa03bfa48abac4a4a34c061",
+    "land": "6c86435b123c0fc1b25d3bc7d446d0ba0f1df0c370197a8fb6850b9e4e505b19",
+    "territories": "3f7109e44f0c3bb83a5953792cb585d5cc0c0335bde676fb165245577d708223",
+    "implementation": "bf12dd1bf14282d499af72203deee521419cd455d0c657a791339777846ca538"
+  },
+  "sha256": "9c4a503418db8d8794d20aecae68fd7c56b894e370610658b8231416dccab61f",
+  "created_at": "2026-10-03T20:32:29.995558+00:00",
+  "track": "retrospective",
+  "historical_weather_availability_known": false,
+  "landcover_available_at": "2026-02-19T00:00:00Z",
+  "landcover_reference_year": 2016,
+  "landcover_hindsight": true,
+  "operational_use_allowed": false,
+  "station_method": "nearest representative point, projected EPSG:5880, <=60km",
+  "station_selection": [
+    {
+      "municipality_code": "3513009",
+      "station_code": "A755",
+      "distance_m": 21156.438968982806
+    },
+    {
+      "municipality_code": "3532827",
+      "station_code": "A714",
+      "distance_m": 27989.026578520647
+    },
+    {
+      "municipality_code": "3502507",
+      "station_code": "A728",
+      "distance_m": 32307.410730450985
+    },
+    {
+      "municipality_code": "3543303",
+      "station_code": "A765",
+      "distance_m": 30308.506130037615
+    },
+    {
+      "municipality_code": "3542008",
+      "station_code": "A768",
+      "distance_m": 22587.8526538794
+    },
+    {
+      "municipality_code": "3545100",
+      "station_code": "A734",
+      "distance_m": 30352.280360433004
+    },
+    {
+      "municipality_code": "3532801",
+      "station_code": "A735",
+      "distance_m": 42572.36668625841
+    },
+    {
+      "municipality_code": "3535903",
+      "station_code": "A733",
+      "distance_m": 11129.696108018197
+    },
+    {
+      "municipality_code": "3525904",
+      "station_code": "A755",
+      "distance_m": 36446.724647361094
+    },
+    {
+      "municipality_code": "3534609",
+      "station_code": "A734",
+      "distance_m": 43205.331684473196
+    },
+    {
+      "municipality_code": "3508207",
+      "station_code": "A753",
+      "distance_m": 18599.872274224937
+    },
+    {
+      "municipality_code": "3532868",
+      "station_code": "A735",
+      "distance_m": 55961.78708508159
+    },
+    {
+      "municipality_code": "3539400",
+      "station_code": "A705",
+      "distance_m": 17724.12904292191
+    },
+    {
+      "municipality_code": "3524600",
+      "station_code": "A766",
+      "distance_m": 31853.33580315747
+    },
+    {
+      "municipality_code": "3538105",
+      "station_code": "A736",
+      "distance_m": 10749.263540080081
+    },
+    {
+      "municipality_code": "3511508",
+      "station_code": "A713",
+      "distance_m": 19956.296221072484
+    },
+    {
+      "municipality_code": "3532843",
+      "station_code": "A733",
+      "distance_m": 40777.82219764539
+    },
+    {
+      "municipality_code": "3553104",
+      "station_code": "A764",
+      "distance_m": 21139.328547792047
+    },
+    {
+      "municipality_code": "3500808",
+      "station_code": "A707",
+      "distance_m": 20182.544392688276
+    },
+    {
+      "municipality_code": "3541604",
+      "station_code": "A727",
+      "distance_m": 21155.632190662658
+    },
+    {
+      "municipality_code": "3510203",
+      "station_code": "A715",
+      "distance_m": 21989.089599314684
+    },
+    {
+      "municipality_code": "3505609",
+      "station_code": "A747",
+      "distance_m": 11693.00897310539
+    },
+    {
+      "municipality_code": "3540309",
+      "station_code": "A729",
+      "distance_m": 34389.92401854344
+    },
+    {
+      "municipality_code": "3541653",
+      "station_code": "A713",
+      "distance_m": 37520.95081012731
+    },
+    {
+      "municipality_code": "3545159",
+      "station_code": "A726",
+      "distance_m": 21607.288239354744
+    },
+    {
+      "municipality_code": "3527405",
+      "station_code": "A734",
+      "distance_m": 34936.81192953345
+    },
+    {
+      "municipality_code": "3542909",
+      "station_code": "A711",
+      "distance_m": 34270.47312632269
+    },
+    {
+      "municipality_code": "3517406",
+      "station_code": "A748",
+      "distance_m": 33279.03599126332
+    },
+    {
+      "municipality_code": "3526100",
+      "station_code": "A766",
+      "distance_m": 40769.9085377471
+    },
+    {
+      "municipality_code": "3547700",
+      "station_code": "A707",
+      "distance_m": 33692.126986143514
+    },
+    {
+      "municipality_code": "3546405",
+      "station_code": "A716",
+      "distance_m": 44161.4883515606
+    },
+    {
+      "municipality_code": "3549508",
+      "station_code": "A708",
+      "distance_m": 27955.33710492691
+    },
+    {
+      "municipality_code": "3550308",
+      "station_code": "A755",
+      "distance_m": 23832.672622472506
+    },
+    {
+      "municipality_code": "3503000",
+      "station_code": "A753",
+      "distance_m": 22970.314069878415
+    },
+    {
+      "municipality_code": "3548203",
+      "station_code": "A706",
+      "distance_m": 13112.677292808927
+    },
+    {
+      "municipality_code": "3518701",
+      "station_code": "A765",
+      "distance_m": 15279.962106809833
+    },
+    {
+      "municipality_code": "3533304",
+      "station_code": "A735",
+      "distance_m": 41374.156246239705
+    },
+    {
+      "municipality_code": "3532009",
+      "station_code": "A739",
+      "distance_m": 52610.646387839224
+    },
+    {
+      "municipality_code": "3552700",
+      "station_code": "A737",
+      "distance_m": 14671.471072269145
+    },
+    {
+      "municipality_code": "3513900",
+      "station_code": "A738",
+      "distance_m": 40342.750063164625
+    },
+    {
+      "municipality_code": "3535101",
+      "station_code": "A736",
+      "distance_m": 3839.8464914075707
+    },
+    {
+      "municipality_code": "3522000",
+      "station_code": "A737",
+      "distance_m": 15862.679775092922
+    },
+    {
+      "municipality_code": "3504305",
+      "station_code": "A705",
+      "distance_m": 35081.51182287491
+    },
+    {
+      "municipality_code": "3512605",
+      "station_code": "A714",
+      "distance_m": 59790.14988194237
+    },
+    {
+      "municipality_code": "3525102",
+      "station_code": "A747",
+      "distance_m": 47916.358066746856
+    },
+    {
+      "municipality_code": "3515707",
+      "station_code": "A701",
+      "distance_m": 26900.68945684305
+    },
+    {
+      "municipality_code": "3506102",
+      "station_code": "A764",
+      "distance_m": 1209.3550740454225
+    },
+    {
+      "municipality_code": "3529203",
+      "station_code": "A718",
+      "distance_m": 24941.29645875424
+    },
+    {
+      "municipality_code": "3514403",
+      "station_code": "A762",
+      "distance_m": 11743.177008248575
+    },
+    {
+      "municipality_code": "3544707",
+      "station_code": "A707",
+      "distance_m": 50532.28251769482
+    },
+    {
+      "municipality_code": "3519204",
+      "station_code": "A768",
+      "distance_m": 20116.523373894157
+    },
+    {
+      "municipality_code": "3551405",
+      "station_code": "A747",
+      "distance_m": 56832.22697993065
+    },
+    {
+      "municipality_code": "3501301",
+      "station_code": "A707",
+      "distance_m": 12764.268168937577
+    },
+    {
+      "municipality_code": "3532058",
+      "station_code": "A747",
+      "distance_m": 21167.520002123518
+    },
+    {
+      "municipality_code": "3531605",
+      "station_code": "A762",
+      "distance_m": 24038.470426097745
+    },
+    {
+      "municipality_code": "3519253",
+      "station_code": "A725",
+      "distance_m": 35763.33937178813
+    },
+    {
+      "municipality_code": "3521606",
+      "station_code": "A762",
+      "distance_m": 22059.39045019344
+    },
+    {
+      "municipality_code": "3530300",
+      "station_code": "A735",
+      "distance_m": 51673.78832311827
+    },
+    {
+      "municipality_code": "3555802",
+      "station_code": "A733",
+      "distance_m": 6628.154113979154
+    },
+    {
+      "municipality_code": "3520301",
+      "station_code": "A712",
+      "distance_m": 16079.556742640047
+    },
+    {
+      "municipality_code": "3543402",
+      "station_code": "A747",
+      "distance_m": 35681.48309815818
+    },
+    {
+      "municipality_code": "3554508",
+      "station_code": "A713",
+      "distance_m": 33813.11652903786
+    },
+    {
+      "municipality_code": "3542107",
+      "station_code": "A713",
+      "distance_m": 35319.75660907318
+    },
+    {
+      "municipality_code": "3540804",
+      "station_code": "A736",
+      "distance_m": 56236.0312467151
+    },
+    {
+      "municipality_code": "3507407",
+      "station_code": "A737",
+      "distance_m": 52329.47007586178
+    },
+    {
+      "municipality_code": "3532900",
+      "station_code": "A737",
+      "distance_m": 14794.28581617411
+    },
+    {
+      "municipality_code": "3522901",
+      "station_code": "A741",
+      "distance_m": 19865.201076245583
+    },
+    {
+      "municipality_code": "3537701",
+      "station_code": "A768",
+      "distance_m": 41349.95855057514
+    },
+    {
+      "municipality_code": "3536406",
+      "station_code": "A762",
+      "distance_m": 37198.67403143711
+    },
+    {
+      "municipality_code": "3508702",
+      "station_code": "A738",
+      "distance_m": 52683.18325207951
+    },
+    {
+      "municipality_code": "3539509",
+      "station_code": "A764",
+      "distance_m": 23462.042578025354
+    },
+    {
+      "municipality_code": "3528809",
+      "station_code": "A718",
+      "distance_m": 42119.57522108967
+    },
+    {
+      "municipality_code": "3538204",
+      "station_code": "A739",
+      "distance_m": 47423.72818281102
+    },
+    {
+      "municipality_code": "3540853",
+      "station_code": "A707",
+      "distance_m": 46597.84343591726
+    },
+    {
+      "municipality_code": "3553203",
+      "station_code": "A764",
+      "distance_m": 22304.59144495394
+    },
+    {
+      "municipality_code": "3550803",
+      "station_code": "A738",
+      "distance_m": 33502.139469513786
+    },
+    {
+      "municipality_code": "3503901",
+      "station_code": "A701",
+      "distance_m": 31656.87988385861
+    },
+    {
+      "municipality_code": "3513108",
+      "station_code": "A747",
+      "distance_m": 40559.10859367153
+    },
+    {
+      "municipality_code": "3502606",
+      "station_code": "A733",
+      "distance_m": 48549.20931844869
+    },
+    {
+      "municipality_code": "3505708",
+      "station_code": "A755",
+      "distance_m": 1556.2453098987492
+    },
+    {
+      "municipality_code": "3503950",
+      "station_code": "A733",
+      "distance_m": 13525.268250506771
+    },
+    {
+      "municipality_code": "3507456",
+      "station_code": "A705",
+      "distance_m": 36532.059673434225
+    },
+    {
+      "municipality_code": "3509205",
+      "station_code": "A755",
+      "distance_m": 18790.65687226213
+    },
+    {
+      "municipality_code": "3528858",
+      "station_code": "A736",
+      "distance_m": 32192.474026356806
+    },
+    {
+      "municipality_code": "3534708",
+      "station_code": "A716",
+      "distance_m": 3537.5499442626265
+    },
+    {
+      "municipality_code": "3524709",
+      "station_code": "A739",
+      "distance_m": 35923.065167273024
+    },
+    {
+      "municipality_code": "3516200",
+      "station_code": "A708",
+      "distance_m": 2035.9923565145962
+    },
+    {
+      "municipality_code": "3547809",
+      "station_code": "A744",
+      "distance_m": 26887.964320439012
+    },
+    {
+      "municipality_code": "3546504",
+      "station_code": "A747",
+      "distance_m": 27992.911774808716
+    },
+    {
+      "municipality_code": "3509254",
+      "station_code": "A746",
+      "distance_m": 30483.91740533918
+    },
+    {
+      "municipality_code": "3511607",
+      "station_code": "A713",
+      "distance_m": 28123.266514846895
+    },
+    {
+      "municipality_code": "3548708",
+      "station_code": "A744",
+      "distance_m": 16835.570265300186
+    },
+    {
+      "municipality_code": "3518800",
+      "station_code": "A701",
+      "distance_m": 18707.926417843086
+    },
+    {
+      "municipality_code": "3551900",
+      "station_code": "A748",
+      "distance_m": 35861.221210873075
+    },
+    {
+      "municipality_code": "3500907",
+      "station_code": "A748",
+      "distance_m": 57992.99577685609
+    },
+    {
+      "municipality_code": "3510302",
+      "station_code": "A713",
+      "distance_m": 14678.229037711826
+    },
+    {
+      "municipality_code": "3534757",
+      "station_code": "A733",
+      "distance_m": 33717.27767203277
+    },
+    {
+      "municipality_code": "3530805",
+      "station_code": "A739",
+      "distance_m": 19584.96353710587
+    },
+    {
+      "municipality_code": "3533403",
+      "station_code": "A726",
+      "distance_m": 36261.23293942423
+    },
+    {
+      "municipality_code": "3540002",
+      "station_code": "A763",
+      "distance_m": 32471.84010420256
+    },
+    {
+      "municipality_code": "3532108",
+      "station_code": "A734",
+      "distance_m": 52429.78592731555
+    },
+    {
+      "municipality_code": "3523404",
+      "station_code": "A701",
+      "distance_m": 56498.12160945582
+    },
+    {
+      "municipality_code": "3520806",
+      "station_code": "A734",
+      "distance_m": 45405.36349602534
+    },
+    {
+      "municipality_code": "3504404",
+      "station_code": "A727",
+      "distance_m": 30324.83961403657
+    },
+    {
+      "municipality_code": "3512704",
+      "station_code": "A711",
+      "distance_m": 41676.12813804673
+    },
+    {
+      "municipality_code": "3525607",
+      "station_code": "A718",
+      "distance_m": 25749.848463643804
+    },
+    {
+      "municipality_code": "3527504",
+      "station_code": "A763",
+      "distance_m": 49829.185739609806
+    },
+    {
+      "municipality_code": "3534302",
+      "station_code": "A753",
+      "distance_m": 39927.2421417674
+    },
+    {
+      "municipality_code": "3556305",
+      "station_code": "A734",
+      "distance_m": 15389.65310614565
+    },
+    {
+      "municipality_code": "3517505",
+      "station_code": "A736",
+      "distance_m": 58975.06353484805
+    },
+    {
+      "municipality_code": "3518859",
+      "station_code": "A747",
+      "distance_m": 17534.60010009487
+    },
+    {
+      "municipality_code": "3526209",
+      "station_code": "A744",
+      "distance_m": 48351.533327003264
+    },
+    {
+      "municipality_code": "3529302",
+      "station_code": "A737",
+      "distance_m": 36665.46372611719
+    },
+    {
+      "municipality_code": "3524303",
+      "station_code": "A747",
+      "distance_m": 24817.69296160606
+    },
+    {
+      "municipality_code": "3519303",
+      "station_code": "A711",
+      "distance_m": 13526.93882992284
+    },
+    {
+      "municipality_code": "3547403",
+      "station_code": "A733",
+      "distance_m": 23079.75609721467
+    },
+    {
+      "municipality_code": "3546108",
+      "station_code": "A733",
+      "distance_m": 34915.132155250634
+    },
+    {
+      "municipality_code": "3503109",
+      "station_code": "A725",
+      "distance_m": 14955.604727151063
+    },
+    {
+      "municipality_code": "3511201",
+      "station_code": "A736",
+      "distance_m": 23132.606711271837
+    },
+    {
+      "municipality_code": "3550001",
+      "station_code": "A740",
+      "distance_m": 14856.386080429089
+    },
+    {
+      "municipality_code": "3503158",
+      "station_code": "A769",
+      "distance_m": 59484.969441676105
+    },
+    {
+      "municipality_code": "3553708",
+      "station_code": "A736",
+      "distance_m": 44279.931514531934
+    },
+    {
+      "municipality_code": "3514957",
+      "station_code": "A736",
+      "distance_m": 20028.35022637566
+    },
+    {
+      "municipality_code": "3512308",
+      "station_code": "A726",
+      "distance_m": 51385.008318324915
+    },
+    {
+      "municipality_code": "3543907",
+      "station_code": "A726",
+      "distance_m": 34540.885367969466
+    },
+    {
+      "municipality_code": "3557204",
+      "station_code": "A716",
+      "distance_m": 19273.960840777097
+    },
+    {
+      "municipality_code": "3506201",
+      "station_code": "A734",
+      "distance_m": 9952.701528398627
+    },
+    {
+      "municipality_code": "3542602",
+      "station_code": "A766",
+      "distance_m": 7421.350473313359
+    },
+    {
+      "municipality_code": "3545704",
+      "station_code": "A733",
+      "distance_m": 19638.32279110692
+    },
+    {
+      "municipality_code": "3537800",
+      "station_code": "A713",
+      "distance_m": 55065.4804003049
+    },
+    {
+      "municipality_code": "3544400",
+      "station_code": "A734",
+      "distance_m": 18790.128455264254
+    },
+    {
+      "municipality_code": "3500550",
+      "station_code": "A725",
+      "distance_m": 42520.407915489304
+    },
+    {
+      "municipality_code": "3549201",
+      "station_code": "A733",
+      "distance_m": 35368.728203930645
+    },
+    {
+      "municipality_code": "3528007",
+      "station_code": "A741",
+      "distance_m": 18678.727620457554
+    },
+    {
+      "municipality_code": "3508801",
+      "station_code": "A727",
+      "distance_m": 20636.93814500199
+    },
+    {
+      "municipality_code": "3518008",
+      "station_code": "A733",
+      "distance_m": 27909.521351045652
+    },
+    {
+      "municipality_code": "3551108",
+      "station_code": "A713",
+      "distance_m": 35488.87839620499
+    },
+    {
+      "municipality_code": "3538709",
+      "station_code": "A726",
+      "distance_m": 17084.6556633664
+    },
+    {
+      "municipality_code": "3531308",
+      "station_code": "A764",
+      "distance_m": 34546.45448688957
+    },
+    {
+      "municipality_code": "3521309",
+      "station_code": "A753",
+      "distance_m": 30257.694348340756
+    },
+    {
+      "municipality_code": "3530003",
+      "station_code": "A729",
+      "distance_m": 51671.712969087035
+    },
+    {
+      "municipality_code": "3549250",
+      "station_code": "A729",
+      "distance_m": 43536.27927723553
+    },
+    {
+      "municipality_code": "3552403",
+      "station_code": "A726",
+      "distance_m": 37231.49849941365
+    },
+    {
+      "municipality_code": "3502705",
+      "station_code": "A714",
+      "distance_m": 49040.86582772216
+    },
+    {
+      "municipality_code": "3555505",
+      "station_code": "A763",
+      "distance_m": 46528.89100737008
+    },
+    {
+      "municipality_code": "3510807",
+      "station_code": "A738",
+      "distance_m": 1385.409410188689
+    },
+    {
+      "municipality_code": "3520004",
+      "station_code": "A741",
+      "distance_m": 19148.756002146903
+    },
+    {
+      "municipality_code": "3540903",
+      "station_code": "A747",
+      "distance_m": 3110.9590043592957
+    },
+    {
+      "municipality_code": "3507506",
+      "station_code": "A741",
+      "distance_m": 54706.212122149045
+    },
+    {
+      "municipality_code": "3554201",
+      "station_code": "A725",
+      "distance_m": 46278.47704859548
+    },
+    {
+      "municipality_code": "3509304",
+      "station_code": "A736",
+      "distance_m": 28763.111613776156
+    },
+    {
+      "municipality_code": "3514106",
+      "station_code": "A741",
+      "distance_m": 23386.2845521832
+    },
+    {
+      "municipality_code": "3536109",
+      "station_code": "A725",
+      "distance_m": 54878.49735185868
+    },
+    {
+      "municipality_code": "3526704",
+      "station_code": "A738",
+      "distance_m": 50674.61465276703
+    },
+    {
+      "municipality_code": "3516705",
+      "station_code": "A763",
+      "distance_m": 31664.215636281
+    },
+    {
+      "municipality_code": "3501004",
+      "station_code": "A708",
+      "distance_m": 47729.65907822111
+    },
+    {
+      "municipality_code": "3548807",
+      "station_code": "A701",
+      "distance_m": 16603.933843766914
+    },
+    {
+      "municipality_code": "3550902",
+      "station_code": "A747",
+      "distance_m": 57863.34938174825
+    },
+    {
+      "municipality_code": "3503604",
+      "station_code": "A741",
+      "distance_m": 28771.090684881077
+    },
+    {
+      "municipality_code": "3502309",
+      "station_code": "A726",
+      "distance_m": 54433.98044092818
+    },
+    {
+      "municipality_code": "3543105",
+      "station_code": "A708",
+      "distance_m": 23699.67012560498
+    },
+    {
+      "municipality_code": "3533908",
+      "station_code": "A748",
+      "distance_m": 46093.831370790715
+    },
+    {
+      "municipality_code": "3532603",
+      "station_code": "A729",
+      "distance_m": 30369.070881098272
+    },
+    {
+      "municipality_code": "3535705",
+      "station_code": "A736",
+      "distance_m": 15230.908271250515
+    },
+    {
+      "municipality_code": "3523909",
+      "station_code": "A713",
+      "distance_m": 38626.152766882726
+    },
+    {
+      "municipality_code": "3522604",
+      "station_code": "A739",
+      "distance_m": 5355.990708349052
+    },
+    {
+      "municipality_code": "3525706",
+      "station_code": "A735",
+      "distance_m": 16842.15547666814
+    },
+    {
+      "municipality_code": "3534401",
+      "station_code": "A755",
+      "distance_m": 8289.951322369161
+    },
+    {
+      "municipality_code": "3539202",
+      "station_code": "A707",
+      "distance_m": 38474.44639425794
+    },
+    {
+      "municipality_code": "3508009",
+      "station_code": "A714",
+      "distance_m": 41580.27584730702
+    },
+    {
+      "municipality_code": "3556800",
+      "station_code": "A764",
+      "distance_m": 20517.212144056197
+    },
+    {
+      "municipality_code": "3529807",
+      "station_code": "A741",
+      "distance_m": 15940.061719354782
+    },
+    {
+      "municipality_code": "3524402",
+      "station_code": "A728",
+      "distance_m": 57557.2529173658
+    },
+    {
+      "municipality_code": "3506706",
+      "station_code": "A737",
+      "distance_m": 22718.8047686292
+    },
+    {
+      "municipality_code": "3501905",
+      "station_code": "A739",
+      "distance_m": 31541.0059251192
+    },
+    {
+      "municipality_code": "3511300",
+      "station_code": "A736",
+      "distance_m": 52172.65434447258
+    },
+    {
+      "municipality_code": "3541406",
+      "station_code": "A707",
+      "distance_m": 19168.28190117026
+    },
+    {
+      "municipality_code": "3510005",
+      "station_code": "A716",
+      "distance_m": 56728.55455330987
+    },
+    {
+      "municipality_code": "3553807",
+      "station_code": "A725",
+      "distance_m": 56824.657184703
+    },
+    {
+      "municipality_code": "3500600",
+      "station_code": "A726",
+      "distance_m": 28530.191061980568
+    },
+    {
+      "municipality_code": "3530904",
+      "station_code": "A726",
+      "distance_m": 26887.57013410525
+    },
+    {
+      "municipality_code": "3505401",
+      "station_code": "A746",
+      "distance_m": 10048.51040514342
+    },
+    {
+      "municipality_code": "3540101",
+      "station_code": "A727",
+      "distance_m": 39018.22866621916
+    },
+    {
+      "municipality_code": "3520905",
+      "station_code": "A716",
+      "distance_m": 31720.158873575467
+    },
+    {
+      "municipality_code": "3527207",
+      "station_code": "A769",
+      "distance_m": 11991.091559486984
+    },
+    {
+      "municipality_code": "3542701",
+      "station_code": "A708",
+      "distance_m": 14139.148213510773
+    },
+    {
+      "municipality_code": "3517208",
+      "station_code": "A727",
+      "distance_m": 12752.628769473631
+    },
+    {
+      "municipality_code": "3547502",
+      "station_code": "A738",
+      "distance_m": 47450.65198339735
+    },
+    {
+      "municipality_code": "3546207",
+      "station_code": "A711",
+      "distance_m": 44355.59602977628
+    },
+    {
+      "municipality_code": "3549300",
+      "station_code": "A762",
+      "distance_m": 28881.329469155855
+    },
+    {
+      "municipality_code": "3528502",
+      "station_code": "A701",
+      "distance_m": 19384.628876084367
+    },
+    {
+      "municipality_code": "3538808",
+      "station_code": "A725",
+      "distance_m": 42766.13226242117
+    },
+    {
+      "municipality_code": "3548005",
+      "station_code": "A739",
+      "distance_m": 26183.181216856177
+    },
+    {
+      "municipality_code": "3518503",
+      "station_code": "A715",
+      "distance_m": 53218.64199917255
+    },
+    {
+      "municipality_code": "3550100",
+      "station_code": "A741",
+      "distance_m": 36246.24641291498
+    },
+    {
+      "municipality_code": "3533106",
+      "station_code": "A762",
+      "distance_m": 18355.52878851857
+    },
+    {
+      "municipality_code": "3553856",
+      "station_code": "A714",
+      "distance_m": 19777.45467654541
+    },
+    {
+      "municipality_code": "3523107",
+      "station_code": "A701",
+      "distance_m": 28572.715285564456
+    },
+    {
+      "municipality_code": "3552502",
+      "station_code": "A765",
+      "distance_m": 31370.727693558834
+    },
+    {
+      "municipality_code": "3513702",
+      "station_code": "A711",
+      "distance_m": 26297.40162352569
+    },
+    {
+      "municipality_code": "3512407",
+      "station_code": "A726",
+      "distance_m": 33998.186171290676
+    },
+    {
+      "municipality_code": "3515509",
+      "station_code": "A729",
+      "distance_m": 32421.65721157044
+    },
+    {
+      "municipality_code": "3504107",
+      "station_code": "A701",
+      "distance_m": 40061.553947836015
+    },
+    {
+      "municipality_code": "3557303",
+      "station_code": "A739",
+      "distance_m": 23890.775609414217
+    },
+    {
+      "municipality_code": "3527256",
+      "station_code": "A735",
+      "distance_m": 35468.48098170585
+    },
+    {
+      "municipality_code": "3529005",
+      "station_code": "A763",
+      "distance_m": 5620.79002898399
+    },
+    {
+      "municipality_code": "3556008",
+      "station_code": "A736",
+      "distance_m": 44299.08381219997
+    },
+    {
+      "municipality_code": "3545803",
+      "station_code": "A726",
+      "distance_m": 22479.789979694837
+    },
+    {
+      "municipality_code": "3514205",
+      "station_code": "A733",
+      "distance_m": 9666.712027976326
+    },
+    {
+      "municipality_code": "3544509",
+      "station_code": "A733",
+      "distance_m": 49066.94030894995
+    },
+    {
+      "municipality_code": "3519006",
+      "station_code": "A768",
+      "distance_m": 14940.32312882383
+    },
+    {
+      "municipality_code": "3509809",
+      "station_code": "A716",
+      "distance_m": 36072.04045458722
+    },
+    {
+      "municipality_code": "3551207",
+      "station_code": "A716",
+      "distance_m": 54498.49319431395
+    },
+    {
+      "municipality_code": "3519071",
+      "station_code": "A726",
+      "distance_m": 47362.39262962436
+    },
+    {
+      "municipality_code": "3501103",
+      "station_code": "A768",
+      "distance_m": 46382.936699834616
+    },
+    {
+      "municipality_code": "3531407",
+      "station_code": "A729",
+      "distance_m": 45921.45860756273
+    },
+    {
+      "municipality_code": "3519055",
+      "station_code": "A739",
+      "distance_m": 35393.967787684465
+    },
+    {
+      "municipality_code": "3521408",
+      "station_code": "A726",
+      "distance_m": 14316.636495342325
+    },
+    {
+      "municipality_code": "3530102",
+      "station_code": "A734",
+      "distance_m": 32771.99460659921
+    },
+    {
+      "municipality_code": "3555604",
+      "station_code": "A736",
+      "distance_m": 41526.18077863568
+    },
+    {
+      "municipality_code": "3510906",
+      "station_code": "A738",
+      "distance_m": 57620.876977795706
+    },
+    {
+      "municipality_code": "3520103",
+      "station_code": "A753",
+      "distance_m": 35053.04228411717
+    },
+    {
+      "municipality_code": "3543204",
+      "station_code": "A716",
+      "distance_m": 22409.852501532816
+    },
+    {
+      "municipality_code": "3532702",
+      "station_code": "A735",
+      "distance_m": 26383.99657508111
+    },
+    {
+      "municipality_code": "3540606",
+      "station_code": "A713",
+      "distance_m": 19550.517750997853
+    },
+    {
+      "municipality_code": "3507209",
+      "station_code": "A768",
+      "distance_m": 34331.157513882405
+    },
+    {
+      "municipality_code": "3522703",
+      "station_code": "A737",
+      "distance_m": 37960.18950607696
+    },
+    {
+      "municipality_code": "3537503",
+      "station_code": "A713",
+      "distance_m": 40788.17297012963
+    },
+    {
+      "municipality_code": "3536208",
+      "station_code": "A766",
+      "distance_m": 16728.19181505916
+    },
+    {
+      "municipality_code": "3539301",
+      "station_code": "A738",
+      "distance_m": 41628.27733352493
+    },
+    {
+      "municipality_code": "3543238",
+      "station_code": "A762",
+      "distance_m": 39053.565120007246
+    },
+    {
+      "municipality_code": "3556909",
+      "station_code": "A736",
+      "distance_m": 19977.74004874371
+    },
+    {
+      "municipality_code": "3544103",
+      "station_code": "A765",
+      "distance_m": 27324.956381893608
+    },
+    {
+      "municipality_code": "3526803",
+      "station_code": "A705",
+      "distance_m": 40953.6077596004
+    },
+    {
+      "municipality_code": "3529906",
+      "station_code": "A766",
+      "distance_m": 58522.92078717725
+    },
+    {
+      "municipality_code": "3508504",
+      "station_code": "A728",
+      "distance_m": 19830.016922178438
+    },
+    {
+      "municipality_code": "3516804",
+      "station_code": "A735",
+      "distance_m": 43005.668123335716
+    },
+    {
+      "municipality_code": "3519907",
+      "station_code": "A718",
+      "distance_m": 30326.21636100413
+    },
+    {
+      "municipality_code": "3501152",
+      "station_code": "A755",
+      "distance_m": 40887.32985796145
+    },
+    {
+      "municipality_code": "3548906",
+      "station_code": "A711",
+      "distance_m": 11407.875292487144
+    },
+    {
+      "municipality_code": "3521002",
+      "station_code": "A713",
+      "distance_m": 8122.045344144096
+    },
+    {
+      "municipality_code": "3550605",
+      "station_code": "A755",
+      "distance_m": 20989.06560471244
+    },
+    {
+      "municipality_code": "3503703",
+      "station_code": "A736",
+      "distance_m": 7254.439572836898
+    },
+    {
+      "municipality_code": "3502408",
+      "station_code": "A707",
+      "distance_m": 26347.53455522175
+    },
+    {
+      "municipality_code": "3556958",
+      "station_code": "A733",
+      "distance_m": 11676.742136134852
+    },
+    {
+      "municipality_code": "3536257",
+      "station_code": "A729",
+      "distance_m": 17794.23041156312
+    },
+    {
+      "municipality_code": "3505500",
+      "station_code": "A748",
+      "distance_m": 11177.15474571676
+    },
+    {
+      "municipality_code": "3541901",
+      "station_code": "A769",
+      "distance_m": 31072.653373642417
+    },
+    {
+      "municipality_code": "3535804",
+      "station_code": "A725",
+      "distance_m": 42628.041991208935
+    },
+    {
+      "municipality_code": "3516853",
+      "station_code": "A737",
+      "distance_m": 26383.755999685516
+    },
+    {
+      "municipality_code": "3509007",
+      "station_code": "A701",
+      "distance_m": 17626.38531757879
+    },
+    {
+      "municipality_code": "3525805",
+      "station_code": "A763",
+      "distance_m": 32960.61817227307
+    },
+    {
+      "municipality_code": "3534500",
+      "station_code": "A763",
+      "distance_m": 30335.47860264058
+    },
+    {
+      "municipality_code": "3516002",
+      "station_code": "A734",
+      "distance_m": 35368.45460915475
+    },
+    {
+      "municipality_code": "3506805",
+      "station_code": "A737",
+      "distance_m": 30024.759602486938
+    },
+    {
+      "municipality_code": "3547601",
+      "station_code": "A738",
+      "distance_m": 42247.96252054634
+    },
+    {
+      "municipality_code": "3538006",
+      "station_code": "A728",
+      "distance_m": 18380.69605297179
+    },
+    {
+      "municipality_code": "3528601",
+      "station_code": "A725",
+      "distance_m": 37476.2179529448
+    },
+    {
+      "municipality_code": "3551702",
+      "station_code": "A747",
+      "distance_m": 26986.182944311
+    },
+    {
+      "municipality_code": "3511409",
+      "station_code": "A725",
+      "distance_m": 22078.192660308847
+    },
+    {
+      "municipality_code": "3518602",
+      "station_code": "A747",
+      "distance_m": 13972.82673747498
+    },
+    {
+      "municipality_code": "3548500",
+      "station_code": "A765",
+      "distance_m": 15563.959181117792
+    },
+    {
+      "municipality_code": "3500709",
+      "station_code": "A705",
+      "distance_m": 23155.24072962395
+    },
+    {
+      "municipality_code": "3531902",
+      "station_code": "A748",
+      "distance_m": 43200.13065202141
+    },
+    {
+      "municipality_code": "3541109",
+      "station_code": "A705",
+      "distance_m": 52198.47139199307
+    },
+    {
+      "municipality_code": "3533205",
+      "station_code": "A762",
+      "distance_m": 35288.7923527153
+    },
+    {
+      "municipality_code": "3521903",
+      "station_code": "A736",
+      "distance_m": 33574.80464412914
+    },
+    {
+      "municipality_code": "3530607",
+      "station_code": "A765",
+      "distance_m": 32761.108573873487
+    },
+    {
+      "municipality_code": "3520608",
+      "station_code": "A707",
+      "distance_m": 12811.631272082652
+    },
+    {
+      "municipality_code": "3535408",
+      "station_code": "A762",
+      "distance_m": 30391.700902203745
+    },
+    {
+      "municipality_code": "3513801",
+      "station_code": "A701",
+      "distance_m": 23929.523855223768
+    },
+    {
+      "municipality_code": "3525409",
+      "station_code": "A753",
+      "distance_m": 22604.7979033042
+    },
+    {
+      "municipality_code": "3512506",
+      "station_code": "A735",
+      "distance_m": 48645.36095888353
+    },
+    {
+      "municipality_code": "3527306",
+      "station_code": "A755",
+      "distance_m": 49574.87599265922
+    },
+    {
+      "municipality_code": "3554805",
+      "station_code": "A728",
+      "distance_m": 14853.213900764318
+    },
+    {
+      "municipality_code": "3504206",
+      "station_code": "A733",
+      "distance_m": 52554.065424224944
+    },
+    {
+      "municipality_code": "3534104",
+      "station_code": "A763",
+      "distance_m": 16557.796784017177
+    },
+    {
+      "municipality_code": "3529104",
+      "station_code": "A733",
+      "distance_m": 42622.61590417435
+    },
+    {
+      "municipality_code": "3517307",
+      "station_code": "A727",
+      "distance_m": 25140.698471826952
+    },
+    {
+      "municipality_code": "3524105",
+      "station_code": "A753",
+      "distance_m": 7197.052648576333
+    },
+    {
+      "municipality_code": "3514700",
+      "station_code": "A763",
+      "distance_m": 32933.49685496841
+    },
+    {
+      "municipality_code": "3519105",
+      "station_code": "A737",
+      "distance_m": 36424.36936392056
+    },
+    {
+      "municipality_code": "3500758",
+      "station_code": "A713",
+      "distance_m": 30137.869227615898
+    },
+    {
+      "municipality_code": "3547205",
+      "station_code": "A733",
+      "distance_m": 22425.69484828463
+    },
+    {
+      "municipality_code": "3509908",
+      "station_code": "A746",
+      "distance_m": 36522.99999034069
+    },
+    {
+      "municipality_code": "3500303",
+      "station_code": "A738",
+      "distance_m": 31236.162263159385
+    },
+    {
+      "municipality_code": "3513405",
+      "station_code": "A769",
+      "distance_m": 14001.813096370835
+    },
+    {
+      "municipality_code": "3512100",
+      "station_code": "A748",
+      "distance_m": 35834.70192048697
+    },
+    {
+      "municipality_code": "3557006",
+      "station_code": "A713",
+      "distance_m": 37493.80655049412
+    },
+    {
+      "municipality_code": "3543709",
+      "station_code": "A747",
+      "distance_m": 27118.971914053258
+    },
+    {
+      "municipality_code": "3506003",
+      "station_code": "A705",
+      "distance_m": 18557.87377544294
+    },
+    {
+      "municipality_code": "3542404",
+      "station_code": "A707",
+      "distance_m": 17382.23291112273
+    },
+    {
+      "municipality_code": "3545506",
+      "station_code": "A707",
+      "distance_m": 58426.08507537273
+    },
+    {
+      "municipality_code": "3544202",
+      "station_code": "A729",
+      "distance_m": 48491.15405179263
+    },
+    {
+      "municipality_code": "3526902",
+      "station_code": "A726",
+      "distance_m": 29003.126071560127
+    },
+    {
+      "municipality_code": "3516507",
+      "station_code": "A734",
+      "distance_m": 44487.64740826684
+    },
+    {
+      "municipality_code": "3549003",
+      "station_code": "A733",
+      "distance_m": 24066.45844831377
+    },
+    {
+      "municipality_code": "3539806",
+      "station_code": "A701",
+      "distance_m": 28626.834689294694
+    },
+    {
+      "municipality_code": "3509957",
+      "station_code": "A769",
+      "distance_m": 7272.699263756186
+    },
+    {
+      "municipality_code": "3508603",
+      "station_code": "A769",
+      "distance_m": 4246.533696126744
+    },
+    {
+      "municipality_code": "3538501",
+      "station_code": "A769",
+      "distance_m": 22513.82570959352
+    },
+    {
+      "municipality_code": "3531100",
+      "station_code": "A744",
+      "distance_m": 19937.88331624962
+    },
+    {
+      "municipality_code": "3521101",
+      "station_code": "A726",
+      "distance_m": 31395.98347725942
+    },
+    {
+      "municipality_code": "3552205",
+      "station_code": "A713",
+      "distance_m": 26655.645461232394
+    },
+    {
+      "municipality_code": "3511904",
+      "station_code": "A768",
+      "distance_m": 38985.7554416551
+    },
+    {
+      "municipality_code": "3555307",
+      "station_code": "A733",
+      "distance_m": 16955.160222762854
+    },
+    {
+      "municipality_code": "3510609",
+      "station_code": "A755",
+      "distance_m": 3990.8926389538706
+    },
+    {
+      "municipality_code": "3503802",
+      "station_code": "A739",
+      "distance_m": 37053.01716127673
+    },
+    {
+      "municipality_code": "3515202",
+      "station_code": "A733",
+      "distance_m": 21882.985739816697
+    },
+    {
+      "municipality_code": "3554003",
+      "station_code": "A713",
+      "distance_m": 20028.498238981676
+    },
+    {
+      "municipality_code": "3540705",
+      "station_code": "A738",
+      "distance_m": 38759.48230879635
+    },
+    {
+      "municipality_code": "3507308",
+      "station_code": "A705",
+      "distance_m": 32331.584394809743
+    },
+    {
+      "municipality_code": "3509106",
+      "station_code": "A762",
+      "distance_m": 56030.441468896104
+    },
+    {
+      "municipality_code": "3504701",
+      "station_code": "A727",
+      "distance_m": 48439.919066835944
+    },
+    {
+      "municipality_code": "3527801",
+      "station_code": "A763",
+      "distance_m": 26713.572493789627
+    },
+    {
+      "municipality_code": "3517802",
+      "station_code": "A734",
+      "distance_m": 43417.189759032204
+    },
+    {
+      "municipality_code": "3526506",
+      "station_code": "A734",
+      "distance_m": 20589.49240747579
+    },
+    {
+      "municipality_code": "3546801",
+      "station_code": "A701",
+      "distance_m": 43823.45465668464
+    },
+    {
+      "municipality_code": "3540754",
+      "station_code": "A706",
+      "distance_m": 30213.725685455483
+    },
+    {
+      "municipality_code": "3549904",
+      "station_code": "A728",
+      "distance_m": 45031.15308622726
+    },
+    {
+      "municipality_code": "3548609",
+      "station_code": "A706",
+      "distance_m": 11653.298779479126
+    },
+    {
+      "municipality_code": "3550704",
+      "station_code": "A767",
+      "distance_m": 31449.550831440443
+    },
+    {
+      "municipality_code": "3503406",
+      "station_code": "A705",
+      "distance_m": 31494.641554524824
+    },
+    {
+      "municipality_code": "3533700",
+      "station_code": "A763",
+      "distance_m": 22213.06683981635
+    },
+    {
+      "municipality_code": "3555356",
+      "station_code": "A735",
+      "distance_m": 22955.864380505656
+    },
+    {
+      "municipality_code": "3532405",
+      "station_code": "A701",
+      "distance_m": 39447.385357237945
+    },
+    {
+      "municipality_code": "3523701",
+      "station_code": "A708",
+      "distance_m": 22785.275032311805
+    },
+    {
+      "municipality_code": "3535507",
+      "station_code": "A718",
+      "distance_m": 34058.26434896358
+    },
+    {
+      "municipality_code": "3522406",
+      "station_code": "A714",
+      "distance_m": 9767.89685803001
+    },
+    {
+      "municipality_code": "3514809",
+      "station_code": "A766",
+      "distance_m": 33638.426608300804
+    },
+    {
+      "municipality_code": "3539004",
+      "station_code": "A736",
+      "distance_m": 19653.578427841647
+    },
+    {
+      "municipality_code": "3556602",
+      "station_code": "A763",
+      "distance_m": 16230.020040917447
+    },
+    {
+      "municipality_code": "3524204",
+      "station_code": "A748",
+      "distance_m": 17258.13077888935
+    },
+    {
+      "municipality_code": "3529609",
+      "station_code": "A729",
+      "distance_m": 23390.098036447973
+    },
+    {
+      "municipality_code": "3506508",
+      "station_code": "A735",
+      "distance_m": 48841.69536841765
+    },
+    {
+      "municipality_code": "3519600",
+      "station_code": "A737",
+      "distance_m": 19272.759564399825
+    },
+    {
+      "municipality_code": "3529658",
+      "station_code": "A733",
+      "distance_m": 23299.34793912218
+    },
+    {
+      "municipality_code": "3551801",
+      "station_code": "A766",
+      "distance_m": 27540.58880487595
+    },
+    {
+      "municipality_code": "3501707",
+      "station_code": "A711",
+      "distance_m": 32233.56259977227
+    },
+    {
+      "municipality_code": "3511102",
+      "station_code": "A736",
+      "distance_m": 14646.975357655392
+    },
+    {
+      "municipality_code": "3549953",
+      "station_code": "A755",
+      "distance_m": 37810.80814208955
+    },
+    {
+      "municipality_code": "3541208",
+      "station_code": "A707",
+      "distance_m": 24294.602578286696
+    },
+    {
+      "municipality_code": "3500402",
+      "station_code": "A738",
+      "distance_m": 42200.003317938994
+    },
+    {
+      "municipality_code": "3530706",
+      "station_code": "A739",
+      "distance_m": 36616.28596773104
+    },
+    {
+      "municipality_code": "3505203",
+      "station_code": "A737",
+      "distance_m": 24080.601909111814
+    },
+    {
+      "municipality_code": "3520707",
+      "station_code": "A733",
+      "distance_m": 41506.861734913226
+    },
+    {
+      "municipality_code": "3527009",
+      "station_code": "A739",
+      "distance_m": 19291.688425784847
+    },
+    {
+      "municipality_code": "3554904",
+      "station_code": "A733",
+      "distance_m": 32926.02730315444
+    },
+    {
+      "municipality_code": "3517000",
+      "station_code": "A727",
+      "distance_m": 31536.033694194324
+    },
+    {
+      "municipality_code": "3543808",
+      "station_code": "A768",
+      "distance_m": 36182.87387259504
+    },
+    {
+      "municipality_code": "3542503",
+      "station_code": "A737",
+      "distance_m": 53891.64376142638
+    },
+    {
+      "municipality_code": "3507803",
+      "station_code": "A708",
+      "distance_m": 56762.55716274547
+    },
+    {
+      "municipality_code": "3547304",
+      "station_code": "A755",
+      "distance_m": 9833.103915010182
+    },
+    {
+      "municipality_code": "3528304",
+      "station_code": "A729",
+      "distance_m": 35767.706604888735
+    },
+    {
+      "municipality_code": "3536802",
+      "station_code": "A739",
+      "distance_m": 55072.72519030492
+    },
+    {
+      "municipality_code": "3546009",
+      "station_code": "A740",
+      "distance_m": 51715.687007396686
+    },
+    {
+      "municipality_code": "3549102",
+      "station_code": "A738",
+      "distance_m": 33688.72076381655
+    },
+    {
+      "municipality_code": "3518305",
+      "station_code": "A765",
+      "distance_m": 47578.5013638293
+    },
+    {
+      "municipality_code": "3539905",
+      "station_code": "A735",
+      "distance_m": 39034.57609914073
+    },
+    {
+      "municipality_code": "3538600",
+      "station_code": "A701",
+      "distance_m": 59893.603062056296
+    },
+    {
+      "municipality_code": "3554953",
+      "station_code": "A739",
+      "distance_m": 47892.939441472045
+    },
+    {
+      "municipality_code": "3553609",
+      "station_code": "A738",
+      "distance_m": 48580.9582636653
+    },
+    {
+      "municipality_code": "3513504",
+      "station_code": "A744",
+      "distance_m": 15456.316990072197
+    },
+    {
+      "municipality_code": "3512209",
+      "station_code": "A739",
+      "distance_m": 34212.030840411106
+    },
+    {
+      "municipality_code": "3557105",
+      "station_code": "A729",
+      "distance_m": 4855.54375062111
+    },
+    {
+      "municipality_code": "3515301",
+      "station_code": "A707",
+      "distance_m": 48559.88649540799
+    },
+    {
+      "municipality_code": "3557154",
+      "station_code": "A735",
+      "distance_m": 13706.32793701755
+    },
+    {
+      "municipality_code": "3545605",
+      "station_code": "A736",
+      "distance_m": 21060.185170990357
+    },
+    {
+      "municipality_code": "3504800",
+      "station_code": "A729",
+      "distance_m": 55160.518296254006
+    },
+    {
+      "municipality_code": "3509601",
+      "station_code": "A701",
+      "distance_m": 33883.73398438021
+    },
+    {
+      "municipality_code": "3526001",
+      "station_code": "A762",
+      "distance_m": 13034.975202733713
+    },
+    {
+      "municipality_code": "3516606",
+      "station_code": "A763",
+      "distance_m": 38708.477203614
+    },
+    {
+      "municipality_code": "3544301",
+      "station_code": "A728",
+      "distance_m": 24964.771968654168
+    },
+    {
+      "municipality_code": "3531209",
+      "station_code": "A739",
+      "distance_m": 35509.77531023751
+    },
+    {
+      "municipality_code": "3546900",
+      "station_code": "A747",
+      "distance_m": 36759.42464153986
+    },
+    {
+      "municipality_code": "3521200",
+      "station_code": "A746",
+      "distance_m": 53996.176478365356
+    },
+    {
+      "municipality_code": "3553658",
+      "station_code": "A764",
+      "distance_m": 16279.21328584882
+    },
+    {
+      "municipality_code": "3555406",
+      "station_code": "A740",
+      "distance_m": 40139.62846379908
+    },
+    {
+      "municipality_code": "3510708",
+      "station_code": "A729",
+      "distance_m": 37509.20607875533
+    },
+    {
+      "municipality_code": "3533809",
+      "station_code": "A725",
+      "distance_m": 47521.410955648054
+    },
+    {
+      "municipality_code": "3554102",
+      "station_code": "A728",
+      "distance_m": 6658.2497555272
+    },
+    {
+      "municipality_code": "3543006",
+      "station_code": "A714",
+      "distance_m": 32074.238944420886
+    },
+    {
+      "municipality_code": "3532504",
+      "station_code": "A735",
+      "distance_m": 35975.96411958022
+    },
+    {
+      "municipality_code": "3507001",
+      "station_code": "A713",
+      "distance_m": 7382.25965020668
+    },
+    {
+      "municipality_code": "3523800",
+      "station_code": "A738",
+      "distance_m": 17923.0663977728
+    },
+    {
+      "municipality_code": "3540408",
+      "station_code": "A733",
+      "distance_m": 29362.704545052486
+    },
+    {
+      "municipality_code": "3522505",
+      "station_code": "A755",
+      "distance_m": 9767.26258557947
+    },
+    {
+      "municipality_code": "3514007",
+      "station_code": "A747",
+      "distance_m": 32442.635549613082
+    },
+    {
+      "municipality_code": "3545209",
+      "station_code": "A713",
+      "distance_m": 41281.643666554475
+    },
+    {
+      "municipality_code": "3537305",
+      "station_code": "A735",
+      "distance_m": 37381.91564289373
+    },
+    {
+      "municipality_code": "3527900",
+      "station_code": "A763",
+      "distance_m": 44951.52961861812
+    },
+    {
+      "municipality_code": "3536000",
+      "station_code": "A768",
+      "distance_m": 31455.123332831623
+    },
+    {
+      "municipality_code": "3539103",
+      "station_code": "A755",
+      "distance_m": 19645.1042109739
+    },
+    {
+      "municipality_code": "3556701",
+      "station_code": "A755",
+      "distance_m": 52976.10369136925
+    },
+    {
+      "municipality_code": "3517901",
+      "station_code": "A748",
+      "distance_m": 53911.77134933345
+    },
+    {
+      "municipality_code": "3526605",
+      "station_code": "A769",
+      "distance_m": 22146.517103768238
+    },
+    {
+      "municipality_code": "3529708",
+      "station_code": "A753",
+      "distance_m": 37546.67358877077
+    },
+    {
+      "municipality_code": "3519709",
+      "station_code": "A755",
+      "distance_m": 41758.541684385695
+    },
+    {
+      "municipality_code": "3508306",
+      "station_code": "A705",
+      "distance_m": 36499.11022229824
+    },
+    {
+      "municipality_code": "3550407",
+      "station_code": "A726",
+      "distance_m": 36296.738905871236
+    },
+    {
+      "municipality_code": "3555000",
+      "station_code": "A768",
+      "distance_m": 6984.6441572871
+    },
+    {
+      "municipality_code": "3503505",
+      "station_code": "A769",
+      "distance_m": 28902.684599879074
+    },
+    {
+      "municipality_code": "3502200",
+      "station_code": "A715",
+      "distance_m": 54480.23829339759
+    },
+    {
+      "municipality_code": "3505302",
+      "station_code": "A741",
+      "distance_m": 12251.35719334874
+    },
+    {
+      "municipality_code": "3541703",
+      "station_code": "A768",
+      "distance_m": 36198.81538826448
+    },
+    {
+      "municipality_code": "3535606",
+      "station_code": "A740",
+      "distance_m": 36604.77043202923
+    },
+    {
+      "municipality_code": "3522109",
+      "station_code": "A744",
+      "distance_m": 36270.007473764075
+    },
+    {
+      "municipality_code": "3514924",
+      "station_code": "A736",
+      "distance_m": 26630.105644099942
+    },
+    {
+      "municipality_code": "3514908",
+      "station_code": "A713",
+      "distance_m": 44322.197302418
+    },
+    {
+      "municipality_code": "3506607",
+      "station_code": "A765",
+      "distance_m": 28639.212301837128
+    },
+    {
+      "municipality_code": "3544806",
+      "station_code": "A727",
+      "distance_m": 43874.95828981472
+    },
+    {
+      "municipality_code": "3528403",
+      "station_code": "A755",
+      "distance_m": 33613.27048413447
+    },
+    {
+      "municipality_code": "3536901",
+      "station_code": "A729",
+      "distance_m": 28090.93445184285
+    },
+    {
+      "municipality_code": "3518404",
+      "station_code": "A769",
+      "distance_m": 21901.24704443189
+    },
+    {
+      "municipality_code": "3551504",
+      "station_code": "A747",
+      "distance_m": 54507.23129444323
+    },
+    {
+      "municipality_code": "3549607",
+      "station_code": "A769",
+      "distance_m": 43160.44154678201
+    },
+    {
+      "municipality_code": "3501806",
+      "station_code": "A729",
+      "distance_m": 23771.229980524655
+    },
+    {
+      "municipality_code": "3522158",
+      "station_code": "A746",
+      "distance_m": 58306.97837395133
+    },
+    {
+      "municipality_code": "3532157",
+      "station_code": "A718",
+      "distance_m": 35055.4172386057
+    },
+    {
+      "municipality_code": "3548302",
+      "station_code": "A707",
+      "distance_m": 34323.37511221834
+    },
+    {
+      "municipality_code": "3521705",
+      "station_code": "A714",
+      "distance_m": 25843.26357911983
+    },
+    {
+      "municipality_code": "3531704",
+      "station_code": "A706",
+      "distance_m": 27885.760079348813
+    },
+    {
+      "municipality_code": "3500501",
+      "station_code": "A739",
+      "distance_m": 21243.12718077018
+    },
+    {
+      "municipality_code": "3513603",
+      "station_code": "A769",
+      "distance_m": 41524.1368798401
+    },
+    {
+      "municipality_code": "3530409",
+      "station_code": "A729",
+      "distance_m": 54786.62090447868
+    },
+    {
+      "municipality_code": "3552809",
+      "station_code": "A755",
+      "distance_m": 13738.74371753472
+    },
+    {
+      "municipality_code": "3555901",
+      "station_code": "A727",
+      "distance_m": 47106.012334313804
+    },
+    {
+      "municipality_code": "3505351",
+      "station_code": "A714",
+      "distance_m": 55738.7037886128
+    },
+    {
+      "municipality_code": "3520400",
+      "station_code": "A767",
+      "distance_m": 7004.990088500481
+    },
+    {
+      "municipality_code": "3525201",
+      "station_code": "A701",
+      "distance_m": 44337.908784070976
+    },
+    {
+      "municipality_code": "3535200",
+      "station_code": "A733",
+      "distance_m": 33734.45401903131
+    },
+    {
+      "municipality_code": "3527108",
+      "station_code": "A727",
+      "distance_m": 6437.119135510821
+    },
+    {
+      "municipality_code": "3554607",
+      "station_code": "A716",
+      "distance_m": 40830.50360712111
+    },
+    {
+      "municipality_code": "3515806",
+      "station_code": "A762",
+      "distance_m": 32199.963615495046
+    },
+    {
+      "municipality_code": "3504008",
+      "station_code": "A763",
+      "distance_m": 58799.944034985776
+    },
+    {
+      "municipality_code": "3517109",
+      "station_code": "A735",
+      "distance_m": 37895.93143972812
+    },
+    {
+      "municipality_code": "3507902",
+      "station_code": "A711",
+      "distance_m": 41479.6369110751
+    },
+    {
+      "municipality_code": "3514502",
+      "station_code": "A705",
+      "distance_m": 39243.11654818223
+    },
+    {
+      "municipality_code": "3509700",
+      "station_code": "A706",
+      "distance_m": 10893.697566010635
+    },
+    {
+      "municipality_code": "3547007",
+      "station_code": "A741",
+      "distance_m": 46923.26728138047
+    },
+    {
+      "municipality_code": "3536505",
+      "station_code": "A726",
+      "distance_m": 48204.37431753017
+    },
+    {
+      "municipality_code": "3501400",
+      "station_code": "A763",
+      "distance_m": 28534.284855206002
+    },
+    {
+      "municipality_code": "3520426",
+      "station_code": "A712",
+      "distance_m": 25420.209654078608
+    },
+    {
+      "municipality_code": "3500105",
+      "station_code": "A734",
+      "distance_m": 31008.68616608766
+    },
+    {
+      "municipality_code": "3554656",
+      "station_code": "A713",
+      "distance_m": 56518.36962038609
+    },
+    {
+      "municipality_code": "3513207",
+      "station_code": "A708",
+      "distance_m": 23908.597590564066
+    },
+    {
+      "municipality_code": "3543501",
+      "station_code": "A714",
+      "distance_m": 59765.44823020009
+    },
+    {
+      "municipality_code": "3542206",
+      "station_code": "A718",
+      "distance_m": 6705.823178286433
+    },
+    {
+      "municipality_code": "3545308",
+      "station_code": "A713",
+      "distance_m": 35452.45583230697
+    },
+    {
+      "municipality_code": "3524808",
+      "station_code": "A733",
+      "distance_m": 13002.251102500852
+    },
+    {
+      "municipality_code": "3534807",
+      "station_code": "A762",
+      "distance_m": 18751.10275293563
+    },
+    {
+      "municipality_code": "3516309",
+      "station_code": "A701",
+      "distance_m": 25723.308725041446
+    },
+    {
+      "municipality_code": "3544004",
+      "station_code": "A726",
+      "distance_m": 16222.675088196347
+    },
+    {
+      "municipality_code": "3508405",
+      "station_code": "A755",
+      "distance_m": 30988.827744787664
+    },
+    {
+      "municipality_code": "3539608",
+      "station_code": "A735",
+      "distance_m": 7527.68014664951
+    },
+    {
+      "municipality_code": "3528908",
+      "station_code": "A707",
+      "distance_m": 44274.40770544669
+    },
+    {
+      "municipality_code": "3538303",
+      "station_code": "A707",
+      "distance_m": 44932.164325440885
+    },
+    {
+      "municipality_code": "3502754",
+      "station_code": "A755",
+      "distance_m": 24161.245566620328
+    },
+    {
+      "municipality_code": "3511706",
+      "station_code": "A726",
+      "distance_m": 23341.198582023673
+    },
+    {
+      "municipality_code": "3553302",
+      "station_code": "A738",
+      "distance_m": 27088.915939192706
+    },
+    {
+      "municipality_code": "3552007",
+      "station_code": "A769",
+      "distance_m": 18658.898269554393
+    },
+    {
+      "municipality_code": "3536570",
+      "station_code": "A705",
+      "distance_m": 37223.99084593293
+    },
+    {
+      "municipality_code": "3555109",
+      "station_code": "A762",
+      "distance_m": 9388.880836810806
+    },
+    {
+      "municipality_code": "3510401",
+      "station_code": "A726",
+      "distance_m": 34056.631636742764
+    },
+    {
+      "municipality_code": "3515004",
+      "station_code": "A755",
+      "distance_m": 14317.736024420738
+    },
+    {
+      "municipality_code": "3505807",
+      "station_code": "A768",
+      "distance_m": 25998.669626943603
+    },
+    {
+      "municipality_code": "3507100",
+      "station_code": "A701",
+      "distance_m": 36949.498295365775
+    },
+    {
+      "municipality_code": "3540507",
+      "station_code": "A713",
+      "distance_m": 48699.94984177998
+    },
+    {
+      "municipality_code": "3507159",
+      "station_code": "A714",
+      "distance_m": 48616.708200175904
+    },
+    {
+      "municipality_code": "3537008",
+      "station_code": "A753",
+      "distance_m": 36752.594487831615
+    },
+    {
+      "municipality_code": "3517604",
+      "station_code": "A714",
+      "distance_m": 43667.29801315251
+    },
+    {
+      "municipality_code": "3527603",
+      "station_code": "A747",
+      "distance_m": 41583.678712969384
+    },
+    {
+      "municipality_code": "3526308",
+      "station_code": "A740",
+      "distance_m": 26189.98842889855
+    },
+    {
+      "municipality_code": "3547908",
+      "station_code": "A708",
+      "distance_m": 59690.66830097246
+    },
+    {
+      "municipality_code": "3518909",
+      "station_code": "A733",
+      "distance_m": 51944.05202890545
+    },
+    {
+      "municipality_code": "3546603",
+      "station_code": "A733",
+      "distance_m": 41131.82244199861
+    },
+    {
+      "municipality_code": "3550506",
+      "station_code": "A716",
+      "distance_m": 32580.616488297175
+    },
+    {
+      "municipality_code": "3549706",
+      "station_code": "A738",
+      "distance_m": 30235.649670360388
+    },
+    {
+      "municipality_code": "3503208",
+      "station_code": "A711",
+      "distance_m": 44457.94815639873
+    },
+    {
+      "municipality_code": "3548401",
+      "station_code": "A768",
+      "distance_m": 29727.859089525013
+    },
+    {
+      "municipality_code": "3541802",
+      "station_code": "A768",
+      "distance_m": 29403.79157040689
+    },
+    {
+      "municipality_code": "3523503",
+      "station_code": "A725",
+      "distance_m": 35521.98985662926
+    },
+    {
+      "municipality_code": "3533502",
+      "station_code": "A727",
+      "distance_m": 49713.974515363574
+    },
+    {
+      "municipality_code": "3552908",
+      "station_code": "A718",
+      "distance_m": 41609.72077232407
+    },
+    {
+      "municipality_code": "3522208",
+      "station_code": "A755",
+      "distance_m": 23683.820356360055
+    },
+    {
+      "municipality_code": "3532207",
+      "station_code": "A707",
+      "distance_m": 45934.14934945926
+    },
+    {
+      "municipality_code": "3535309",
+      "station_code": "A716",
+      "distance_m": 36403.05204657173
+    },
+    {
+      "municipality_code": "3512803",
+      "station_code": "A726",
+      "distance_m": 45475.446088830664
+    },
+    {
+      "municipality_code": "3525300",
+      "station_code": "A741",
+      "distance_m": 7490.624418227228
+    },
+    {
+      "municipality_code": "3515905",
+      "station_code": "A729",
+      "distance_m": 32897.00573237984
+    },
+    {
+      "municipality_code": "3504503",
+      "station_code": "A725",
+      "distance_m": 4342.651340876061
+    },
+    {
+      "municipality_code": "3556404",
+      "station_code": "A738",
+      "distance_m": 20149.396897330796
+    },
+    {
+      "municipality_code": "3506300",
+      "station_code": "A716",
+      "distance_m": 42007.656274661014
+    },
+    {
+      "municipality_code": "3524006",
+      "station_code": "A755",
+      "distance_m": 46948.48473516566
+    },
+    {
+      "municipality_code": "3514601",
+      "station_code": "A747",
+      "distance_m": 17358.995568985978
+    },
+    {
+      "municipality_code": "3519402",
+      "station_code": "A736",
+      "distance_m": 40394.44186618974
+    },
+    {
+      "municipality_code": "3529401",
+      "station_code": "A701",
+      "distance_m": 27223.933626278933
+    },
+    {
+      "municipality_code": "3544905",
+      "station_code": "A753",
+      "distance_m": 52408.04216428889
+    },
+    {
+      "municipality_code": "3551603",
+      "station_code": "A739",
+      "distance_m": 23144.01097596736
+    },
+    {
+      "municipality_code": "3501509",
+      "station_code": "A763",
+      "distance_m": 32108.497681222998
+    },
+    {
+      "municipality_code": "3500204",
+      "station_code": "A735",
+      "distance_m": 36253.45585908507
+    },
+    {
+      "municipality_code": "3521804",
+      "station_code": "A725",
+      "distance_m": 43310.78860224435
+    },
+    {
+      "municipality_code": "3531803",
+      "station_code": "A726",
+      "distance_m": 43424.85863134335
+    },
+    {
+      "municipality_code": "3556453",
+      "station_code": "A755",
+      "distance_m": 19392.934686858585
+    },
+    {
+      "municipality_code": "3541000",
+      "station_code": "A744",
+      "distance_m": 7837.100018242328
+    },
+    {
+      "municipality_code": "3506359",
+      "station_code": "A765",
+      "distance_m": 13450.927094807452
+    },
+    {
+      "municipality_code": "3520509",
+      "station_code": "A713",
+      "distance_m": 52533.87143120669
+    },
+    {
+      "municipality_code": "3530508",
+      "station_code": "A738",
+      "distance_m": 37173.49800542086
+    },
+    {
+      "municipality_code": "3541059",
+      "station_code": "A725",
+      "distance_m": 41071.001876671835
+    },
+    {
+      "municipality_code": "3554706",
+      "station_code": "A741",
+      "distance_m": 41881.23520216401
+    },
+    {
+      "municipality_code": "3543600",
+      "station_code": "A753",
+      "distance_m": 47619.97512779503
+    },
+    {
+      "municipality_code": "3542305",
+      "station_code": "A740",
+      "distance_m": 10289.82332099352
+    },
+    {
+      "municipality_code": "3537909",
+      "station_code": "A715",
+      "distance_m": 47010.63991177825
+    },
+    {
+      "municipality_code": "3547106",
+      "station_code": "A762",
+      "distance_m": 24590.993361134577
+    },
+    {
+      "municipality_code": "3551009",
+      "station_code": "A744",
+      "distance_m": 8105.434126875999
+    },
+    {
+      "municipality_code": "3518107",
+      "station_code": "A727",
+      "distance_m": 31015.59891761903
+    },
+    {
+      "municipality_code": "3528106",
+      "station_code": "A735",
+      "distance_m": 26557.353224929233
+    },
+    {
+      "municipality_code": "3508900",
+      "station_code": "A707",
+      "distance_m": 26220.943673596947
+    },
+    {
+      "municipality_code": "3539707",
+      "station_code": "A716",
+      "distance_m": 48600.684522227115
+    },
+    {
+      "municipality_code": "3554755",
+      "station_code": "A737",
+      "distance_m": 37255.49045973396
+    },
+    {
+      "municipality_code": "3553401",
+      "station_code": "A729",
+      "distance_m": 37479.34011971527
+    },
+    {
+      "municipality_code": "3552106",
+      "station_code": "A739",
+      "distance_m": 36129.327829114496
+    },
+    {
+      "municipality_code": "3513306",
+      "station_code": "A718",
+      "distance_m": 45423.8561426157
+    },
+    {
+      "municipality_code": "3512001",
+      "station_code": "A748",
+      "distance_m": 20529.423616399643
+    },
+    {
+      "municipality_code": "3502804",
+      "station_code": "A734",
+      "distance_m": 50709.29181538178
+    },
+    {
+      "municipality_code": "3515103",
+      "station_code": "A744",
+      "distance_m": 31242.169996721517
+    },
+    {
+      "municipality_code": "3505906",
+      "station_code": "A708",
+      "distance_m": 39055.968284956645
+    },
+    {
+      "municipality_code": "3545407",
+      "station_code": "A716",
+      "distance_m": 10806.604258196343
+    },
+    {
+      "municipality_code": "3524907",
+      "station_code": "A740",
+      "distance_m": 30605.72077436703
+    },
+    {
+      "municipality_code": "3534906",
+      "station_code": "A762",
+      "distance_m": 28986.00170325085
+    },
+    {
+      "municipality_code": "3516408",
+      "station_code": "A701",
+      "distance_m": 22410.153005210126
+    },
+    {
+      "municipality_code": "3509452",
+      "station_code": "A715",
+      "distance_m": 38547.28682966747
+    },
+    {
+      "municipality_code": "3546702",
+      "station_code": "A726",
+      "distance_m": 26885.345096043744
+    },
+    {
+      "municipality_code": "3515129",
+      "station_code": "A707",
+      "distance_m": 37305.96878539401
+    },
+    {
+      "municipality_code": "3531001",
+      "station_code": "A735",
+      "distance_m": 28090.021405049967
+    },
+    {
+      "municipality_code": "3555208",
+      "station_code": "A735",
+      "distance_m": 26589.5665544862
+    },
+    {
+      "municipality_code": "3502002",
+      "station_code": "A711",
+      "distance_m": 26607.731516659016
+    },
+    {
+      "municipality_code": "3541505",
+      "station_code": "A762",
+      "distance_m": 46436.671788512824
+    },
+    {
+      "municipality_code": "3510500",
+      "station_code": "A767",
+      "distance_m": 22210.778047190302
+    },
+    {
+      "municipality_code": "3515194",
+      "station_code": "A705",
+      "distance_m": 52959.74073442892
+    },
+    {
+      "municipality_code": "3515186",
+      "station_code": "A739",
+      "distance_m": 25464.263794017243
+    },
+    {
+      "municipality_code": "3523602",
+      "station_code": "A711",
+      "distance_m": 35465.96288820543
+    },
+    {
+      "municipality_code": "3533601",
+      "station_code": "A708",
+      "distance_m": 37732.235566408985
+    },
+    {
+      "municipality_code": "3515152",
+      "station_code": "A739",
+      "distance_m": 41277.1674652761
+    },
+    {
+      "municipality_code": "3540200",
+      "station_code": "A747",
+      "distance_m": 38799.069734337776
+    },
+    {
+      "municipality_code": "3522307",
+      "station_code": "A715",
+      "distance_m": 24014.890716976897
+    },
+    {
+      "municipality_code": "3532306",
+      "station_code": "A740",
+      "distance_m": 22443.234465553927
+    },
+    {
+      "municipality_code": "3545001",
+      "station_code": "A765",
+      "distance_m": 43221.905621405676
+    },
+    {
+      "municipality_code": "3543253",
+      "station_code": "A715",
+      "distance_m": 42195.32093049346
+    },
+    {
+      "municipality_code": "3512902",
+      "station_code": "A729",
+      "distance_m": 20620.11295627251
+    },
+    {
+      "municipality_code": "3504602",
+      "station_code": "A735",
+      "distance_m": 54193.21622290123
+    },
+    {
+      "municipality_code": "3537107",
+      "station_code": "A739",
+      "distance_m": 39397.63499190714
+    },
+    {
+      "municipality_code": "3556503",
+      "station_code": "A755",
+      "distance_m": 33933.85528126487
+    },
+    {
+      "municipality_code": "3517703",
+      "station_code": "A753",
+      "distance_m": 14770.572034908715
+    },
+    {
+      "municipality_code": "3527702",
+      "station_code": "A768",
+      "distance_m": 31601.43382494281
+    },
+    {
+      "municipality_code": "3537156",
+      "station_code": "A718",
+      "distance_m": 52399.09857099791
+    },
+    {
+      "municipality_code": "3508108",
+      "station_code": "A735",
+      "distance_m": 31075.81471053254
+    },
+    {
+      "municipality_code": "3526407",
+      "station_code": "A713",
+      "distance_m": 41691.655470292804
+    },
+    {
+      "municipality_code": "3519501",
+      "station_code": "A716",
+      "distance_m": 22775.58010104603
+    },
+    {
+      "municipality_code": "3529500",
+      "station_code": "A735",
+      "distance_m": 41097.76240530855
+    },
+    {
+      "municipality_code": "3524501",
+      "station_code": "A735",
+      "distance_m": 37972.6171985071
+    },
+    {
+      "municipality_code": "3525854",
+      "station_code": "A713",
+      "distance_m": 29936.997987492265
+    },
+    {
+      "municipality_code": "3546306",
+      "station_code": "A738",
+      "distance_m": 20457.767016854796
+    },
+    {
+      "municipality_code": "3540259",
+      "station_code": "A733",
+      "distance_m": 32918.26267504631
+    },
+    {
+      "municipality_code": "3550209",
+      "station_code": "A715",
+      "distance_m": 17936.26885500604
+    },
+    {
+      "municipality_code": "3503307",
+      "station_code": "A726",
+      "distance_m": 49985.96162485807
+    },
+    {
+      "municipality_code": "3510104",
+      "station_code": "A736",
+      "distance_m": 32228.936005488442
+    },
+    {
+      "municipality_code": "3505104",
+      "station_code": "A735",
+      "distance_m": 22786.08806885864
+    },
+    {
+      "municipality_code": "3503356",
+      "station_code": "A768",
+      "distance_m": 18782.840654444724
+    },
+    {
+      "municipality_code": "3553906",
+      "station_code": "A707",
+      "distance_m": 36179.592860615216
+    },
+    {
+      "municipality_code": "3553955",
+      "station_code": "A718",
+      "distance_m": 58100.54023393172
+    },
+    {
+      "municipality_code": "3523206",
+      "station_code": "A714",
+      "distance_m": 44540.56485330675
+    },
+    {
+      "municipality_code": "3506409",
+      "station_code": "A734",
+      "distance_m": 48178.50418488868
+    },
+    {
+      "municipality_code": "3556107",
+      "station_code": "A729",
+      "distance_m": 12909.893972043912
+    },
+    {
+      "municipality_code": "3510153",
+      "station_code": "A716",
+      "distance_m": 13388.910505966278
+    },
+    {
+      "municipality_code": "3544608",
+      "station_code": "A727",
+      "distance_m": 26334.624099422585
+    },
+    {
+      "municipality_code": "3547650",
+      "station_code": "A733",
+      "distance_m": 17241.80553903328
+    },
+    {
+      "municipality_code": "3518206",
+      "station_code": "A734",
+      "distance_m": 32689.723014853054
+    },
+    {
+      "municipality_code": "3549409",
+      "station_code": "A753",
+      "distance_m": 28711.08387064766
+    },
+    {
+      "municipality_code": "3528205",
+      "station_code": "A729",
+      "distance_m": 40242.13099890559
+    },
+    {
+      "municipality_code": "3536703",
+      "station_code": "A705",
+      "distance_m": 17823.988336077393
+    },
+    {
+      "municipality_code": "3501608",
+      "station_code": "A726",
+      "distance_m": 35466.106282086555
+    },
+    {
+      "municipality_code": "3551306",
+      "station_code": "A729",
+      "distance_m": 26473.552292101016
+    },
+    {
+      "municipality_code": "3548104",
+      "station_code": "A739",
+      "distance_m": 34093.747168251
+    },
+    {
+      "municipality_code": "3538907",
+      "station_code": "A727",
+      "distance_m": 40989.97607465541
+    },
+    {
+      "municipality_code": "3531506",
+      "station_code": "A764",
+      "distance_m": 20019.665506265916
+    },
+    {
+      "municipality_code": "3521507",
+      "station_code": "A727",
+      "distance_m": 56847.659291658616
+    },
+    {
+      "municipality_code": "3552601",
+      "station_code": "A736",
+      "distance_m": 29540.15060456891
+    },
+    {
+      "municipality_code": "3502903",
+      "station_code": "A713",
+      "distance_m": 21546.830349741842
+    },
+    {
+      "municipality_code": "3555703",
+      "station_code": "A735",
+      "distance_m": 22115.709670528955
+    },
+    {
+      "municipality_code": "3535002",
+      "station_code": "A729",
+      "distance_m": 52033.08630880563
+    },
+    {
+      "municipality_code": "3533254",
+      "station_code": "A736",
+      "distance_m": 17781.9532959303
+    },
+    {
+      "municipality_code": "3525003",
+      "station_code": "A755",
+      "distance_m": 4150.692104580272
+    },
+    {
+      "municipality_code": "3554409",
+      "station_code": "A764",
+      "distance_m": 24388.076781117237
+    },
+    {
+      "municipality_code": "3515608",
+      "station_code": "A736",
+      "distance_m": 25691.9100952543
+    },
+    {
+      "municipality_code": "3507704",
+      "station_code": "A768",
+      "distance_m": 45032.00165228363
+    },
+    {
+      "municipality_code": "3513850",
+      "station_code": "A733",
+      "distance_m": 31345.031806336807
+    },
+    {
+      "municipality_code": "3507753",
+      "station_code": "A735",
+      "distance_m": 32138.07006812725
+    },
+    {
+      "municipality_code": "3509502",
+      "station_code": "A739",
+      "distance_m": 56443.646764734614
+    },
+    {
+      "municipality_code": "3514304",
+      "station_code": "A741",
+      "distance_m": 36801.43281384522
+    },
+    {
+      "municipality_code": "3515657",
+      "station_code": "A763",
+      "distance_m": 45953.43546068486
+    },
+    {
+      "municipality_code": "3537602",
+      "station_code": "A744",
+      "distance_m": 58706.08494791985
+    },
+    {
+      "municipality_code": "3536307",
+      "station_code": "A708",
+      "distance_m": 15525.297120038276
+    },
+    {
+      "municipality_code": "3501202",
+      "station_code": "A729",
+      "distance_m": 12470.09516012001
+    },
+    {
+      "municipality_code": "3516903",
+      "station_code": "A729",
+      "distance_m": 52226.907397926574
+    }
+  ],
+  "station_covered_municipalities": 605,
+  "weather_units": {
+    "precipitation_mm": "mm",
+    "temperature_c": "C",
+    "relative_humidity_pct": "%",
+    "wind_ms": "m/s"
+  },
+  "minimum_hourly_valid_fraction": 0.75,
+  "quality": {
+    "observed_precipitation_mm_sum_24h_missing": 50535,
+    "observed_temperature_c_max_24h_missing": 40883,
+    "observed_relative_humidity_pct_min_24h_missing": 41605,
+    "observed_wind_ms_max_24h_missing": 52212,
+    "observed_precipitation_mm_sum_168h_missing": 51790,
+    "observed_temperature_c_max_168h_missing": 41966,
+    "observed_relative_humidity_pct_min_168h_missing": 42653,
+    "observed_wind_ms_max_168h_missing": 53646,
+    "landcover_forest_missing": 0,
+    "landcover_natural_nonforest_missing": 0,
+    "landcover_pasture_missing": 0,
+    "landcover_cropland_missing": 0,
+    "landcover_forest_plantation_missing": 0,
+    "landcover_farming_other_missing": 0,
+    "landcover_nonvegetated_missing": 0,
+    "landcover_water_missing": 0,
+    "landcover_not_observed_missing": 0
+  }
+}

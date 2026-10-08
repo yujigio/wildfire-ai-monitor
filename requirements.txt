@@ -1,0 +1,2 @@
+-r entrega_csv/codigo/requirements.txt
+httpx==0.28.1

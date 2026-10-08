@@ -1,0 +1,13 @@
+{
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2015/part-00000.parquet": "16fe63f8455b61281ff6dd63cc362065a2eff7d93137c73eb52a5000f8a94adf",
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2016/part-00000.parquet": "ab1efbecd554a5b51e48d8b4d0169b781f878fb9d85de2130b220e3c357b3044",
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2017/part-00000.parquet": "b29279476ef612f1e55910fee495edf63fc9edbca4359d226661a47fcf6e4970",
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2018/part-00000.parquet": "8aa7a92d3a4b8d41602738d49c88e4b90dd1a94efd62e4b06d5576934eccde28",
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2019/part-00000.parquet": "3d6f675761c0e346001401a9853df476421d9a703d8d2b7f57515d70c6473266",
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2020/part-00000.parquet": "d5baca228a97e7db1d6ca616e519e1b5dd7e347fbae3feb443314ceed1a39897",
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2021/part-00000.parquet": "27d1361541d134763a8cadab29d490a09580aed733c3928b50bc6ceddd4e9788",
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2022/part-00000.parquet": "c03c6aa77104e739ab08194d6c99a802a548220fb8d41e63585250394a7310bf",
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2023/part-00000.parquet": "e47849f65c9626833ab818af548d38ef1132b607705b51839a507af13d75aa38",
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2024/part-00000.parquet": "a3e7ebf17306a74670510332d7c7777f54c0a52f4f1eed9ac5edecb3bfee73d7",
+  "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2025/part-00000.parquet": "e3c12d2ab697fcf0e07595914e7fac00ad10f3770299a4910e508121481fe2a8"
+}

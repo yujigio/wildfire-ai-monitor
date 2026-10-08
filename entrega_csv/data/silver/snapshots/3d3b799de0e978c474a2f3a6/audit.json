@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-10-03T20:37:10.127060+00:00",
+  "version": "0.1.0",
+  "rows_read": 174951,
+  "accepted": 40934,
+  "excluded": 134017,
+  "reasons": {
+    "coordinates_outside_sp": 134017
+  },
+  "spatial_verified": true,
+  "files_quarantined": 0,
+  "zip_csv_divergences": 0,
+  "labels_ready": false,
+  "note": "Contagens são observações, não incêndios independentes. Cobertura e procedência requerem aprovação."
+}

@@ -1,0 +1,5 @@
+entrega_csv/** -text
+*.parquet binary
+*.py text eol=lf
+*.md text eol=lf
+entrega_csv/** -text

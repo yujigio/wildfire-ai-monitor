@@ -1,0 +1,5012 @@
+[
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2015/part-00000.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2016/part-00000.parquet",
+    "linhas": 236070,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2017/part-00000.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2018/part-00000.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2019/part-00000.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2020/part-00000.parquet",
+    "linhas": 236070,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2021/part-00000.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2022/part-00000.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2023/part-00000.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2024/part-00000.parquet",
+    "linhas": 236070,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/gold/snapshots/2f3f2c6d958ca84c77d0cf24/municipality_day/year=2025/part-00000.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "target_end",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "track",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "target",
+        "tipo": "int8"
+      },
+      {
+        "nome": "coverage_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "target_mode",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "archive_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_target_detections",
+        "tipo": "int64"
+      },
+      {
+        "nome": "month_sin",
+        "tipo": "double"
+      },
+      {
+        "nome": "month_cos",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_1d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "focos_previous_7d",
+        "tipo": "double"
+      },
+      {
+        "nome": "focos_previous_7d_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "split",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2015/part.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2016/part.parquet",
+    "linhas": 236070,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2017/part.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2018/part.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2019/part.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2020/part.parquet",
+    "linhas": 236070,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2021/part.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2022/part.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2023/part.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2024/part.parquet",
+    "linhas": 236070,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/environment_daily/year=2025/part.parquet",
+    "linhas": 235425,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "issuance_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_24h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_24h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_precipitation_mm_sum_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_precipitation_mm_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_temperature_c_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_temperature_c_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_min_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_relative_humidity_pct_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "observed_wind_ms_max_168h_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "observed_wind_ms_coverage_168h",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_natural_nonforest",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_natural_nonforest_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_pasture",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_pasture_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_cropland",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_cropland_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_forest_plantation",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_forest_plantation_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_farming_other",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_farming_other_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_nonvegetated",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_nonvegetated_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_water",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_water_missing",
+        "tipo": "bool"
+      },
+      {
+        "nome": "landcover_not_observed",
+        "tipo": "float"
+      },
+      {
+        "nome": "landcover_not_observed_missing",
+        "tipo": "bool"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/snapshots/3d3b799de0e978c474a2f3a6/coverage_counts.parquet",
+    "linhas": 13096,
+    "colunas": [
+      {
+        "nome": "source",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "source_product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "sensor",
+        "tipo": "double"
+      },
+      {
+        "nome": "month",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_original",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "observations",
+        "tipo": "int64"
+      },
+      {
+        "nome": "coverage_status",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/snapshots/3d3b799de0e978c474a2f3a6/exceptions.parquet",
+    "linhas": 134017,
+    "colunas": [
+      {
+        "nome": "original_id",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "source",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "sensor",
+        "tipo": "null"
+      },
+      {
+        "nome": "observed_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "time_original",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "latitude",
+        "tipo": "double"
+      },
+      {
+        "nome": "longitude",
+        "tipo": "double"
+      },
+      {
+        "nome": "source_crs",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_original",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "state_original",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_code_original",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "bronze_reference",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "bronze_sha256",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "source_row",
+        "tipo": "int64"
+      },
+      {
+        "nome": "transform_version",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "collected_at",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "available_at",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "available_at_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "source_product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "original_attributes",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "content_fingerprint",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "observation_id",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "exclusion_reasons",
+        "tipo": "list<element: string>"
+      },
+      {
+        "nome": "quality_flags",
+        "tipo": "list<element: string>"
+      },
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/snapshots/3d3b799de0e978c474a2f3a6/municipalities.parquet",
+    "linhas": 645,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/snapshots/3d3b799de0e978c474a2f3a6/observations.parquet",
+    "linhas": 40934,
+    "colunas": [
+      {
+        "nome": "original_id",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "source",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "sensor",
+        "tipo": "null"
+      },
+      {
+        "nome": "observed_at",
+        "tipo": "timestamp[us, tz=UTC]"
+      },
+      {
+        "nome": "time_original",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "latitude",
+        "tipo": "double"
+      },
+      {
+        "nome": "longitude",
+        "tipo": "double"
+      },
+      {
+        "nome": "source_crs",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_original",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "state_original",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_code_original",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "bronze_reference",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "bronze_sha256",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "source_row",
+        "tipo": "int64"
+      },
+      {
+        "nome": "transform_version",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "collected_at",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "available_at",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "available_at_known",
+        "tipo": "bool"
+      },
+      {
+        "nome": "source_product",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "original_attributes",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "content_fingerprint",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "observation_id",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "exclusion_reasons",
+        "tipo": "list<element: null>"
+      },
+      {
+        "nome": "quality_flags",
+        "tipo": "list<element: string>"
+      },
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      }
+    ]
+  },
+  {
+    "arquivo": "data/silver/snapshots/3d3b799de0e978c474a2f3a6/territories.parquet",
+    "linhas": 645,
+    "colunas": [
+      {
+        "nome": "municipality_code",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "municipality_name",
+        "tipo": "large_string"
+      },
+      {
+        "nome": "geometry",
+        "tipo": "binary"
+      }
+    ]
+  }
+]

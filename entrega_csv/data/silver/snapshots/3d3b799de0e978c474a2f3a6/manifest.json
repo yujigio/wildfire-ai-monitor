@@ -1,0 +1,88 @@
+{
+  "snapshot_id": "3d3b799de0e978c474a2f3a6",
+  "inputs": [
+    [
+      "data/bronze/inpe/official_sp/focos_br_ref_2025.zip::tmp/focos_br_ref_2025.csv",
+      "4d514c8afb1a83b00fb0caa5f727f453390159f535024fe8c62f69a925b964ca",
+      "inspected"
+    ],
+    [
+      "data/bronze/inpe/official_sp/focos_br_sp_ref_2015.zip::focos_br_sp_ref_2015.csv",
+      "f2f7e95e43ad5dd88ab2c93ef745880b27a90480cb955f67321e1d68ac8368aa",
+      "inspected"
+    ],
+    [
+      "data/bronze/inpe/official_sp/focos_br_sp_ref_2016.zip::focos_br_sp_ref_2016.csv",
+      "7303ffd3563654f797879a5ef1519e6ab9b610f92b7b34550d2f47a5690a3e9b",
+      "inspected"
+    ],
+    [
+      "data/bronze/inpe/official_sp/focos_br_sp_ref_2017.zip::focos_br_sp_ref_2017.csv",
+      "6681457fa144eb26914fd5d4980d5cd15e3f07aa38e0556e8c94a4a568500eb6",
+      "inspected"
+    ],
+    [
+      "data/bronze/inpe/official_sp/focos_br_sp_ref_2018.zip::focos_br_sp_ref_2018.csv",
+      "47e2f8fdfd67a00af8dd25ccd68d9cd739334670fe08bc364d62ecc7f5515412",
+      "inspected"
+    ],
+    [
+      "data/bronze/inpe/official_sp/focos_br_sp_ref_2019.zip::focos_br_sp_ref_2019.csv",
+      "9506ce386629d065407e0434d0f4c421707a571e26249715a7ee7b23bfad1686",
+      "inspected"
+    ],
+    [
+      "data/bronze/inpe/official_sp/focos_br_sp_ref_2020.zip::focos_br_sp_ref_2020.csv",
+      "f92d546619e7e36de5fd57811e73081e82317d4d2db34d0c0ba9d3a128c47390",
+      "inspected"
+    ],
+    [
+      "data/bronze/inpe/official_sp/focos_br_sp_ref_2021.zip::focos_br_sp_ref_2021.csv",
+      "133b71e09d7b4225921cf218a29f77a72f8950c84dd36bfd0d0e849027a9f2b7",
+      "inspected"
+    ],
+    [
+      "data/bronze/inpe/official_sp/focos_br_sp_ref_2022.zip::focos_br_sp_ref_2022.csv",
+      "a719f451f3ef789117cbef079b6f19512ff6ffddb3f9fd3659ba9d4ae09af656",
+      "inspected"
+    ],
+    [
+      "data/bronze/inpe/official_sp/focos_br_sp_ref_2023.zip::focos_br_sp_ref_2023.csv",
+      "f97393fd0208a591f940e72ef99c9d5f129db68d8cf5aeb45d633c7515af422e",
+      "inspected"
+    ],
+    [
+      "data/bronze/inpe/official_sp/focos_br_sp_ref_2024.zip::focos_br_sp_ref_2024.csv",
+      "9eaaafbb75c7fcaf6925f4a0aff0063801d765257014b59150f05d5423dee1ba",
+      "inspected"
+    ]
+  ],
+  "boundaries": "92a54d06e6f5a9749368e522861b785eae8c797329c9fa09cbb1a0696319d8e3",
+  "config": {
+    "lake_root": "/workspace",
+    "input_relative": "data/bronze/inpe/official_sp",
+    "boundaries_relative": "data/bronze/ibge/SP_Municipios_2024.zip",
+    "boundary_code_column": "CD_MUN",
+    "boundary_name_column": "NM_MUN",
+    "timezone": "America/Sao_Paulo",
+    "annual_source_timezone": "UTC",
+    "annual_timezone_verified": true,
+    "issuance_hour": 9,
+    "state_code": "35",
+    "pilot_codes": [
+      "3534708"
+    ],
+    "firms_product": "VIIRS_SNPP_NRT",
+    "bbox": [
+      -53.2,
+      -25.4,
+      -44,
+      -19.7
+    ],
+    "max_download_mb": 200,
+    "source_max_age_hours": 24
+  },
+  "provenance": {},
+  "code": "0.1.0",
+  "implementation": "2e059b5deadcc93e201587040aa1cba9e7bd80ae1b04d80c27bd9d70bc8f73a4"
+}
